@@ -1,0 +1,17 @@
+{
+    "name": "Wifi talkie",
+    "short_name": "Wtalk",
+    "start_url": "https://wifitalk.netlify.app/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "https://www.freepik.com/free-vector/wireless-network-symbol_10602858.htm#fromView=keyword&page=1&position=2&uuid=ea3d2400-0a15-4bfc-a27e-f5300190aab9&query=Wifi+png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
