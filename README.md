@@ -1,59 +1,92 @@
-# 🎙️ VOICE_LINK v1.5 (P2P Radio)
+<div align="center">
 
-![Version](https://img.shields.io/badge/version-1.5-neon.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Tech](https://img.shields.io/badge/WebRTC-PeerJS-blue)
+  <img src="https://img.shields.io/badge/✨%20Vibe%20Coded-100%25-8A2BE2?style=for-the-badge" alt="Vibe Coded" />
+  <br />
+  <br />
 
-A high-performance, low-latency **Peer-to-Peer Voice Communicator**. 
-Designed with a "Walkie-Talkie" interface, this web app establishes a direct audio link between two users using specific frequencies (Channels).
+  <h1>📻 Wifi Talkie</h1>
+  
+  <p>
+    <strong>Instant, high-quality voice chat over WiFi/Internet. No servers, just pure P2P connection.</strong>
+  </p>
 
-## ⚡ Key Features
+  <p>
+    <img src="https://img.shields.io/badge/Status-Flow%20State-success?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Tech-WebRTC%20%7C%20PeerJS%20%7C%20Vanilla%20JS-orange?style=flat-square" alt="Tech Stack" />
+    <a href="https://github.com/shubhambelbase/Wifi_talkie/stargazers">
+      <img src="https://img.shields.io/github/stars/shubhambelbase/Wifi_talkie?style=social" alt="Stars" />
+    </a>
+  </p>
 
-* **🔒 Private & Direct:** Audio streams travel directly between devices (Peer-to-Peer) via WebRTC. No audio data is stored on any server.
-* **🤝 Robust Handshake Protocol:** Version 1.5 introduces a new `ACK` based name exchange system. It ensures user Codenames are synced 100% of the time, even on slow connections.
-* **📻 Frequency Based:** No complicated URLs. Just agree on a 4-digit "Frequency" (e.g., `1111`) to pair devices.
-* **🌑 Cyberpunk UI:** Minimalist, high-contrast Dark Mode interface designed for OLED screens and low-light operations.
-* **👆 Push-to-Toggle:** Large, tactile microphone control. Click to go **"ON AIR"**.
+  <h3>
+    <a href="https://shubhambelbase.github.io/Wifi_talkie/">🎙️ Open Web Radio</a>
+  </h3>
+</div>
 
-## 🚀 Live Demo
+---
 
-[**Click here to Launch App**](https://wifitalk.netlify.app/)
-## 🛠️ How to Use
+## ⚡ The Vibe
 
-### 1. Establish a Command Post (Host)
-1.  Open the app.
-2.  Enter your **Codename** (e.g., `ALPHA`).
-3.  Enter a **4-Digit Frequency** (e.g., `5050`).
-4.  Click **CREATE**.
-5.  Wait for the status to say "Waiting for Partner...".
+Why type when you can talk? **Wifi Talkie** brings back the retro feel of radio communication with modern web technology. 
 
-### 2. Join the Frequency (Guest)
-1.  Open the app on a second device.
-2.  Enter your **Codename** (e.g., `BRAVO`).
-3.  Enter the **Same Frequency** (`5050`).
-4.  Click **JOIN**.
+Vibe coded to be lightweight, instant, and completely decentralized. It establishes a direct audio tunnel between devices, ensuring your voice travels at the speed of light (well, almost).
 
-### 3. Communication
-* Once connected, the screen will display **"LINKED: [PARTNER NAME]"**.
-* Click the big **MIC OFF** button. It will turn **Green (ON AIR)**.
-* Speak. Click again to mute.
+## 💡 What It Does
 
-## 📦 Installation / Deployment
+**Wifi Talkie** turns your browser into a 2-way radio station.
 
-**Important:** Because this app uses the Microphone, modern browsers require it to run in a **Secure Context (HTTPS)**.
+* **Problem:** Calling apps are bloated, require accounts, and route audio through central servers.
+* **Solution:** A simple link. One connection code. Instant, crystal-clear voice chat directly between two devices.
 
-### Option A: GitHub Pages (Recommended)
-1.  Upload `index.html` to a GitHub repository.
-2.  Go to **Settings** -> **Pages**.
-3.  Deploy from `main` branch.
-4.  Your radio is now live and secure.
+## ✨ Key Features
 
-### Option B: Local Testing
-You **cannot** run this by double-clicking the file (`file://`).
-You must run a local server:
+| 📡 **Connectivity** | 🎛️ **Controls** |
+| :--- | :--- |
+| **Instant P2P:** Connect via simple codes | **Push-to-Talk:** Classic walkie-talkie mode |
+| **No Signup:** Just open and talk | **Mute/Unmute:** Privacy controls |
+| **Cross-Platform:** Works on Phone & PC | **Visualizer:** See your voice waves |
+| **Secure:** Audio streams directly to peers | **Zero Latency:** Fast real-time audio |
 
-```bash
-# Python
-python3 -m http.server 8000
+## 🛠️ Built With
 
-# Node.js
-npx http-server
+* **HTML5 Audio API** - For capturing and playing high-quality voice.
+* **WebRTC (PeerJS)** - The magic behind the serverless peer-to-peer connection.
+* **Vanilla JavaScript** - No frameworks, just raw performance.
+* **CSS3** - For that sleek, modern interface.
+
+## 🚀 How to Run
+
+### Option 1: Live Demo (Instant)
+1.  **Open the link:** [https://shubhambelbase.github.io/Wifi_talkie/](https://shubhambelbase.github.io/Wifi_talkie/)
+2.  **Allow Microphone permissions.**
+3.  **Share the Code** with a friend.
+4.  **Start Talking!**
+
+### Option 2: Local Setup
+1.  **Clone the repo:**
+    ```bash
+    git clone [https://github.com/shubhambelbase/Wifi_talkie.git](https://github.com/shubhambelbase/Wifi_talkie.git)
+    ```
+2.  **Navigate to folder:**
+    ```bash
+    cd Wifi_talkie
+    ```
+3.  **Run it:**
+    Simply open `Index.html` in your browser.
+    *(Note: For P2P to work across different networks, you might need a local server or HTTPS tunnel).*
+
+## 🤝 Contributing
+
+Have ideas to add video? File sharing? Or just better UI vibes?
+1.  Fork it.
+2.  Create your Feature Branch.
+3.  Commit your Changes.
+4.  Push to the Branch.
+5.  Open a Pull Request.
+
+---
+
+<div align="center">
+  <p>Vibe coded with ❤️ by <a href="https://github.com/shubhambelbase">Shubham Belbase</a></p>
+</div>
 
