@@ -81,6 +81,3 @@ Got ideas for file sharing, video streams, or cleaner vibes?
 
 <div align="center">
   <p>Vibe coded with ❤️ by <a href="https://github.com/shubhambelbase">Shubham Belbase</a></p>
-  <p><em>"Leave No Trace."</em></p>
-</div>
-
