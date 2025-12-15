@@ -4,22 +4,23 @@
   <br />
   <br />
 
-  <h1>📻 Wifi Talkie</h1>
+  <h1>🎙️ VOICE_LINK</h1>
   
   <p>
-    <strong>Instant, high-quality voice chat over WiFi/Internet. No servers, just pure P2P connection.</strong>
+    <strong>Secure, serverless P2P communication channel. Voice + Text + Tactical Glass UI.</strong>
   </p>
 
   <p>
-    <img src="https://img.shields.io/badge/Status-Flow%20State-success?style=flat-square" alt="Status" />
-    <img src="https://img.shields.io/badge/Tech-WebRTC%20%7C%20PeerJS%20%7C%20Vanilla%20JS-orange?style=flat-square" alt="Tech Stack" />
-    <a href="https://github.com/shubhambelbase/Wifi_talkie/stargazers">
-      <img src="https://img.shields.io/github/stars/shubhambelbase/Wifi_talkie?style=social" alt="Stars" />
+    <img src="https://img.shields.io/badge/Status-Deployed-00ff88?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Security-DTLS%2FSRTP-blue?style=flat-square" alt="Security" />
+    <img src="https://img.shields.io/badge/Tech-WebRTC%20%7C%20PeerJS%20%7C%20Vanilla-orange?style=flat-square" alt="Tech Stack" />
+    <a href="https://github.com/shubhambelbase/voice_link/stargazers">
+      <img src="https://img.shields.io/github/stars/shubhambelbase/voice_link?style=social" alt="Stars" />
     </a>
   </p>
 
   <h3>
-    <a href="https://wifitalk.netlify.app">🔴 Start Talking (Live Demo)</a>
+    <a href="https://wifitalk.netlify.app">🟢 Establish Link (Live Demo)</a>
   </h3>
 </div>
 
@@ -27,50 +28,49 @@
 
 ## ⚡ The Vibe
 
-Why type when you can talk? **Wifi Talkie** brings back the retro feel of radio communication with modern web technology. 
+**VOICE_LINK** isn't just a calling app; it's a secure frequency for you and your team. Rebuilt with a modern **Glassmorphism HUD**, it combines the tactical feel of a radio with the privacy of an encrypted tunnel.
 
-Vibe coded to be lightweight, instant, and completely decentralized. It establishes a direct audio tunnel between devices, ensuring your voice travels at the speed of light (well, almost).
+No databases. No chat logs. No middleman. Just a direct link between two devices.
 
-## 💡 What It Does
+## 🔒 Security & Privacy
 
-**Wifi Talkie** turns your browser into a 2-way radio station.
-
-* **Problem:** Calling apps are bloated, require accounts, and route audio through central servers.
-* **Solution:** A simple link. One connection code. Instant, crystal-clear voice chat directly between two devices.
+* **Ephemeral:** Messages and voice data are never stored. Once the tab closes, they are gone forever.
+* **Encrypted:** Uses WebRTC (DTLS/SRTP) to encrypt media streams.
+* **Access Control:** Host approval system prevents unauthorized users from joining your frequency.
 
 ## ✨ Key Features
 
-| 📡 **Connectivity** | 🎛️ **Controls** |
+| 🎛️ **Tactical Controls** | 🛡️ **Secure Core** |
 | :--- | :--- |
-| **Instant P2P:** Connect via simple codes | **Push-to-Talk:** Classic walkie-talkie mode |
-| **No Signup:** Just open and talk | **Mute/Unmute:** Privacy controls |
-| **Cross-Platform:** Works on Phone & PC | **Visualizer:** See your voice waves |
-| **Secure:** Audio streams directly to peers | **Zero Latency:** Fast real-time audio |
+| **Hybrid PTT:** Toggle Mode or Hold-to-Talk | **Approval System:** Host must verify guests |
+| **Glass UI:** Modern, blur-effect interface | **Encrypted Chat:** Integrated text messaging |
+| **Incoming Mute:** Silence noisy partners | **Disconnect:** One-click secure termination |
+| **Audio Feedback:** Generated beep notifications | **Zero Latency:** P2P Direct Audio |
 
 ## 🛠️ Built With
 
-* **HTML5 Audio API** - For capturing and playing high-quality voice.
-* **WebRTC (PeerJS)** - The magic behind the serverless peer-to-peer connection.
-* **Vanilla JavaScript** - No frameworks, just raw performance.
-* **CSS3** - For that sleek, modern interface.
+* **HTML5 Audio API** - Custom oscillator beeps and audio routing.
+* **WebRTC (PeerJS)** - The engine behind the serverless peer-to-peer connection.
+* **Vanilla JavaScript** - Zero frameworks, 100% performance.
+* **CSS3** - Advanced glassmorphism, animations, and responsive layouts.
 
+## 🚀 Local Setup
 
-### Local Setup
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/shubhambelbase/Wifi_talkie.git](https://github.com/shubhambelbase/Wifi_talkie.git)
+    git clone [https://github.com/shubhambelbase/voice_link.git](https://github.com/shubhambelbase/voice_link.git)
     ```
 2.  **Navigate to folder:**
     ```bash
-    cd Wifi_talkie
+    cd voice_link
     ```
 3.  **Run it:**
-    Simply open `Index.html` in your browser.
-    *(Note: For P2P to work across different networks, you might need a local server or HTTPS tunnel).*
+    Simply open `index.html` in your browser.
+    *(Note: Microphone access requires HTTPS or localhost).*
 
 ## 🤝 Contributing
 
-Have ideas to add video? File sharing? Or just better UI vibes?
+Got ideas for file sharing, video streams, or cleaner vibes?
 1.  Fork it.
 2.  Create your Feature Branch.
 3.  Commit your Changes.
@@ -81,5 +81,6 @@ Have ideas to add video? File sharing? Or just better UI vibes?
 
 <div align="center">
   <p>Vibe coded with ❤️ by <a href="https://github.com/shubhambelbase">Shubham Belbase</a></p>
+  <p><em>"Leave No Trace."</em></p>
 </div>
 
