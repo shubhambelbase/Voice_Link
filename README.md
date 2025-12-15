@@ -58,7 +58,7 @@ No databases. No chat logs. No middleman. Just a direct link between two devices
 
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/shubhambelbase/voice_link.git](https://github.com/shubhambelbase/voice_link.git)
+    git clone https://github.com/shubhambelbase/voice_link.git
     ```
 2.  **Navigate to folder:**
     ```bash
